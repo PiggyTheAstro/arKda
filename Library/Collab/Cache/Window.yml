@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - Assets/Materials/BulletMat.mat
+    - Assets/Materials/EnemyMat.mat
+    - Assets/Materials/PlayerMat.mat
+    - Assets/Materials/WallMat.mat
+    - Assets/Music.meta
+    - Assets/Music/Chase.ogg
+    - Assets/Music/Chase.ogg.meta
+    - Assets/Music/Juhani Junkala [Retro Game Music Pack] Level 1.wav
+    - Assets/Music/Juhani Junkala [Retro Game Music Pack] Level 1.wav.meta
+    - Assets/Music/S31-Let the Games Begin.ogg
+    - Assets/Music/S31-Let the Games Begin.ogg.meta
+    - Assets/Music/spaceship.wav
+    - Assets/Music/spaceship.wav.meta
+    - Assets/Prefabs/Melee Enemy.prefab
+    - Assets/Prefabs/Music.prefab
+    - Assets/Prefabs/Music.prefab.meta
+    - Assets/Prefabs/Player.prefab
+    - Assets/Prefabs/Ranged Enemy.prefab
+    - Assets/Prefabs/Spawner.prefab
+    - Assets/Prefabs/StarGenerator.prefab
+    - Assets/Prefabs/StarGenerator.prefab.meta
+    - Assets/Prefabs/Tank Enemy.prefab
+    - Assets/Prefabs/Tank Enemy.prefab.meta
+    - Assets/Prefabs/WeaponDrops/HandCannonDrop.prefab
+    - Assets/Prefabs/WeaponDrops/HandCannonDrop.prefab.meta
+    - Assets/Prefabs/WeaponDrops/MinigunDrop.prefab
+    - Assets/Prefabs/WeaponDrops/MinigunDrop.prefab.meta
+    - Assets/SFX/button.wav
+    - Assets/SFX/button.wav.meta
+    - Assets/SFX/handcannon.wav
+    - Assets/SFX/handcannon.wav.meta
+    - Assets/SFX/minigun.wav
+    - Assets/SFX/minigun.wav.meta
+    - Assets/SFX/rangedhurt.wav
+    - Assets/SFX/rangedhurt.wav.meta
+    - Assets/SFX/tankhurt.wav
+    - Assets/SFX/tankhurt.wav.meta
+    - Assets/SFX/weaponpickup.wav
+    - Assets/SFX/weaponpickup.wav.meta
+    - Assets/Scenes/Armory.unity
+    - Assets/Scenes/Armory.unity.meta
+    - Assets/Scenes/Game.unity
+    - Assets/Scenes/GameHC.unity
+    - Assets/Scenes/GameHC.unity.meta
+    - Assets/Scenes/Menu.unity
+    - Assets/Scenes/Menu.unity.meta
+    - Assets/Scenes/Settings.unity
+    - Assets/Scenes/Settings.unity.meta
+    - Assets/Scenes/Stats.unity
+    - Assets/Scenes/Stats.unity.meta
+    - Assets/Scripts/Bullets/Bullet.cs
+    - Assets/Scripts/Bullets/BulletComponent.cs
+    - Assets/Scripts/Bullets/BulletComponents/BoostOnHit.cs
+    - Assets/Scripts/Bullets/BulletComponents/BulletPen.cs
+    - Assets/Scripts/Bullets/BulletComponents/FireOnCol.cs
+    - Assets/Scripts/Bullets/BulletTypes/CannonBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/CannonBullet.asset.meta
+    - Assets/Scripts/Bullets/BulletTypes/Mine.asset
+    - Assets/Scripts/Bullets/BulletTypes/MineProjectile.asset
+    - Assets/Scripts/Bullets/BulletTypes/MinigunBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/MinigunBullet.asset.meta
+    - Assets/Scripts/Bullets/BulletTypes/RevolverBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/RifleBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/SMGBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/ShotgunBullet.asset
+    - Assets/Scripts/Bullets/BulletTypes/TwinBullet.asset
+    - Assets/Scripts/Bullets/SubBulletManager.cs
+    - Assets/Scripts/ButtonScript.cs
+    - Assets/Scripts/ButtonScript.cs.meta
+    - Assets/Scripts/DisplayStats.cs
+    - Assets/Scripts/DisplayStats.cs.meta
+    - Assets/Scripts/Enemies/EnemyBullet.cs
+    - Assets/Scripts/Enemies/EnemyHealth.cs
+    - Assets/Scripts/Enemies/HitResponse.cs
+    - Assets/Scripts/Enemies/MeleeAI.cs
+    - Assets/Scripts/Enemies/Necromancy.cs
+    - Assets/Scripts/Enemies/Necromancy.cs.meta
+    - Assets/Scripts/Enemies/RangedAI.cs
+    - Assets/Scripts/GunStats.cs
+    - Assets/Scripts/GunStats.cs.meta
+    - Assets/Scripts/MusicManager.cs
+    - Assets/Scripts/MusicManager.cs.meta
+    - Assets/Scripts/Player/OrbitScript.cs
+    - Assets/Scripts/Player/PlayerController.cs
+    - Assets/Scripts/Player/PlayerInput.cs
+    - Assets/Scripts/ScoreScript.cs
+    - Assets/Scripts/ScoreScript.cs.meta
+    - Assets/Scripts/Settings.cs
+    - Assets/Scripts/Settings.cs.meta
+    - Assets/Scripts/SettingsManager.cs
+    - Assets/Scripts/SettingsManager.cs.meta
+    - Assets/Scripts/SpawnerScript.cs
+    - Assets/Scripts/WaveScript.cs
+    - Assets/Scripts/Weapons/Weapon.cs
+    - Assets/Scripts/Weapons/WeaponManager.cs
+    - Assets/Scripts/Weapons/WeaponPickup.cs
+    - Assets/Scripts/Weapons/Weapons/Hand Cannon.asset
+    - Assets/Scripts/Weapons/Weapons/Hand Cannon.asset.meta
+    - Assets/Scripts/Weapons/Weapons/Minigun.asset
+    - Assets/Scripts/Weapons/Weapons/Minigun.asset.meta
+    - Assets/Sprites/Hand cannon.png
+    - Assets/Sprites/Hand cannon.png.meta
+    - Assets/Sprites/ScaledBorder.png
+    - Assets/Sprites/ScaledBorder.png.meta
+    - Assets/Sprites/Shield.shader
+    - Assets/Sprites/Shield.shader.meta
+    - Assets/Sprites/arkda logo.png
+    - Assets/Sprites/arkda logo.png.meta
+    - Assets/Sprites/arkda words.png
+    - Assets/Sprites/arkda words.png.meta
+    - Assets/Sprites/arrow.png
+    - Assets/Sprites/arrow.png.meta
+    - Assets/Sprites/minigun.png
+    - Assets/Sprites/minigun.png.meta
+    - Assets/Sprites/star.png
+    - Assets/Sprites/star.png.meta
+    - Assets/TextMesh Pro/Fonts/ARCADE SDF.asset
+    - Assets/TextMesh Pro/Fonts/ARCADE SDF.asset.meta
+    - Assets/TextMesh Pro/Fonts/ARCADE.TTF
+    - Assets/TextMesh Pro/Fonts/ARCADE.TTF.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/QualitySettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

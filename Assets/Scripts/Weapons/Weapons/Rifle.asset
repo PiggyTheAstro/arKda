@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e304a5c4dcb7b74887e764dd56bb571, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  automatic: 1
+  fireRate: 0.32
+  bulletPositions:
+  - {x: 0, y: 0}
+  bulletAngles:
+  - 0
+  bulletAmount: 1
+  bullet: {fileID: 11400000, guid: db213bab539d1004f9f31cb0c0efadee, type: 2}
+  bulletObj: {fileID: 966771508551291270, guid: d6c570b78c3614148b615145ac89f9f8, type: 3}
+  speedMultiplier: 0.75
+  knockbackAmount: 8
+  knockbackTime: 0.28
+  shakeMagnitude: 0.15
+  shakeDuration: 0.18
+  soundEffect: {fileID: 8300000, guid: c75a1a35def4cfd4f88cace1acd9182c, type: 3}
+  idealDifficulty: 1
+  weaponDrop: {fileID: 9083280226314715017, guid: 17867496780a1ba4cad0a0ccabe9923a, type: 3}
+  sprite: {fileID: 21300000, guid: 87c37ee9631bde5448c44804a1c62145, type: 3}

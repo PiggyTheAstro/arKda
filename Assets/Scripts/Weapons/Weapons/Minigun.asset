@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e304a5c4dcb7b74887e764dd56bb571, type: 3}
+  m_Name: Minigun
+  m_EditorClassIdentifier: 
+  automatic: 1
+  fireRate: 0.3
+  bulletPositions:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0.5}
+  - {x: 0, y: -0.5}
+  bulletAngles:
+  - 0
+  - 15
+  - -15
+  bulletAmount: 3
+  bullet: {fileID: 11400000, guid: b3e0efe8ee7b13242a94008c493e5548, type: 2}
+  bulletObj: {fileID: 5981645021719662761, guid: 20d6515cef67f3f4ea3d370c1a8cc14d, type: 3}
+  speedMultiplier: 0.7
+  knockbackAmount: 4
+  knockbackTime: 0.3
+  shakeMagnitude: 0.16
+  shakeDuration: 0.25
+  soundEffect: {fileID: 8300000, guid: 80522fab856f922418d0bba318456698, type: 3}
+  idealDifficulty: 15
+  weaponDrop: {fileID: 8582000445496592313, guid: 5e1d5750932885a449d1be7398ce3597, type: 3}
+  sprite: {fileID: 21300000, guid: 9644441071705a64fb5d786400a04142, type: 3}
+  interval: 0.1
